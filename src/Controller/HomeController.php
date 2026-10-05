@@ -22,7 +22,7 @@ final class HomeController {
     */
     #[Route('/', name: 'app_home', methods: ['GET'])]
     public function index(): Response {
-        $projectName = 'IssueFlow';
+        $projectName = 'IssueFlow Clon';
 
         // Creamos una variable que contiene el documento html
         $html = <<<HTML
